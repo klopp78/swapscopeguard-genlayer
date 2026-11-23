@@ -1,0 +1,10 @@
+{
+  "name": "swapscopeguard-genlayer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "contract:check": "node scripts/check-contract.mjs",
+    "contract:test": "node scripts/test-lifecycle.mjs",
+    "test": "npm run contract:check && npm run contract:test"
+  }
+}
